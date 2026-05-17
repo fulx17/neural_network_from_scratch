@@ -14,7 +14,7 @@ Mạng neural network cơ bản (Multi-Layer Perceptron) viết bằng C++ để
 
 ---
 
-## 📂 2. Cấu trúc thư mục
+## 2. Cấu trúc thư mục
 
 ```text
 mainspace/
@@ -25,7 +25,7 @@ random_wb/
 
 readmnist/
     └── read_mnist.cpp     # Đọc dữ liệu nhị phân và tiền xử lý ảnh
-
+```
 ---
 
 ## 3. Kiến trúc mạng Neural
@@ -45,5 +45,5 @@ Lớp đầu ra (Output Layer): 10 nút (đại diện cho các chữ số từ 
 ---
 
 5. Hướng dẫn biên dịch và chạy
-- Biên dịch dự án: g++ -std=c++11 mainspace/main.cpp random_wb/exceed.cpp readmnist/read_mnist.cpp -o mnist_nn
-- Chạy chương trình: ./mnist_nn
+- Biên dịch dự án: ```g++ -std=c++11 mainspace/main.cpp random_wb/exceed.cpp readmnist/read_mnist.cpp -o mnist_nn```
+- Chạy chương trình: ```./mnist_nn```
