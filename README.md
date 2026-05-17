@@ -31,11 +31,11 @@ readmnist/
 ## 3. Kiến trúc mạng Neural
 Lớp đầu vào (Input Layer): 784 nút (tương ứng với vector ảnh 28x28 pixel sau khi làm phẳng).
 
-Lớp ẩn 1(Hidden Layer): 128 nút 
+- Lớp ẩn 1(Hidden Layer): 128 nút 
 
-Lớp ẩn 2(Hidden Layer): 64 nút 
+- Lớp ẩn 2(Hidden Layer): 64 nút 
 
-Lớp đầu ra (Output Layer): 10 nút (đại diện cho các chữ số từ 0 đến 9) k
+- Lớp đầu ra (Output Layer): 10 nút (đại diện cho các chữ số từ 0 đến 9) k
 
 ---
 
@@ -44,6 +44,6 @@ Lớp đầu ra (Output Layer): 10 nút (đại diện cho các chữ số từ 
 
 ---
 
-5. Hướng dẫn biên dịch và chạy
+##5. Hướng dẫn biên dịch và chạy
 - Biên dịch dự án: ```g++ -std=c++11 mainspace/main.cpp random_wb/exceed.cpp readmnist/read_mnist.cpp -o mnist_nn```
 - Chạy chương trình: ```./mnist_nn```
